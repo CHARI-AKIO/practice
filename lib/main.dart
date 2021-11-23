@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:practice/pages/buttons.dart';
 
 import 'package:practice/pages/home.dart';
+import 'package:practice/pages/testjs.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,7 +21,9 @@ class MyApp extends StatelessWidget {
       routes: {
         '/':(context) => HomePage(),
         '/second':(context) => sub1Page(),
-        '/buttons':(context) => sub2Page()
+        '/buttons':(context) => sub2Page(),
+        '/linkjs':(context) => jsPage()
+
       },
     );
   }
