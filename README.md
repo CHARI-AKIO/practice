@@ -1,16 +1,28 @@
 # practice
 
-人に説明するために勉強しよう
+勉強しよう
 
-## Getting Started
+# Flutter
+やったこと一覧
 
-This project is a starting point for a Flutter application.
+ - Routing各種
+    - Namedpush ... あらかじめrouteの名前を決めておくもの
+    - push  ... イベント事にstatefulwigetを呼び出すもの
+    - pop ... 戻る
+  - Buttonの配置
+  - Textのプロパティいろいろ
 
-A few resources to get you started if this is your first Flutter project:
+  - dartからjavascriptの呼び出し
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+------
+# やってみたいこと
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  - サーバータイムの取得
+  - draggableオブジェクト(ドラッグでぐりぐり動かせる奴)
+  - firebase
+    - auth
+    - firestore
+  - mathライブラリでいろいろ
+  - buttonanimation
+  - chat bubble見たいなやつ
+  - 要素の数によってはscrollできるbody
