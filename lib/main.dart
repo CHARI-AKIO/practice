@@ -2,6 +2,7 @@ import 'dart:html';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:practice/pages/buttons.dart';
 
 import 'package:practice/pages/home.dart';
 
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/':(context) => HomePage(),
-        '/second':(context) => sub1Page()
+        '/second':(context) => sub1Page(),
+        '/buttons':(context) => sub2Page()
       },
     );
   }
