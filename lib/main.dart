@@ -71,10 +71,15 @@ class _HomePageState extends State<HomePage> {
                     //   settings:const RouteSettings(name: '/hoge'),
                     //   builder: (context) => sub1App()
                   },
-                  child: Text('This Button'))
-
+                  child: Text('This Button')),
+              ElevatedButton(
+                  onPressed: (){
+                    Navigator.pushNamed(context, '/linkjs');
+                  },
+                  child: Text('LinkJs'))
             ],
           ),
+
           Text('Hello',
               style:TextStyle(
                 fontSize: 20,

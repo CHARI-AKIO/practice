@@ -29,7 +29,7 @@ class _jsPageState extends State<jsPage>{
               Center(
                 child: ElevatedButton(
                   onPressed: (){
-
+                    calltest();
                   },
                   child: Text('link Javascript'),
                 ),

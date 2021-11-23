@@ -1,6 +1,11 @@
 @JS()
-library stringify;
+library calljs;
 import 'package:js/js.dart';
 
-@JS('JSON.stringify')
-external String stringify(Object obj);
+void calltest(){
+  print('Hello');
+  test();
+}
+
+@JS()
+external void test();
